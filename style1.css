@@ -35,7 +35,7 @@ h2{
     border: 3px solid #73AD21;
     padding: 10px;
     background-color: lightcoral;
-    /* display: none; */
+    display: none;
 
 }
 .main{
