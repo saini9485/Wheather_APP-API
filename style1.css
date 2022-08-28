@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+    background-color:rgb(48, 48, 176)
+    
+}
+.cityName{
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    height: 20px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 100%;
+
+}
+.submitButton{
+    border-radius: 10px;
+    border: 2px solid rgb(242, 127, 5);
+    font-weight: bold;
+    font-size: 100%;
+    
+}
+.submitButton:hover{
+    color: aliceblue;
+    background-color: blue;
+    transition: .5s;
+}
+.container{
+    margin: auto;
+    width: fit-content;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    background-color: lightcoral;
+
+}
+.main{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+    background-color: aqua;
+}

@@ -17,7 +17,8 @@ h1{
     color: antiquewhite;
 }
 .input_Class{
-    border: 2px solid red
+ border-radius: 10%;
+ border: 2px solid red;
     
 }
 .button_Class{
@@ -33,4 +34,8 @@ h1{
 }
 h2 ,h4{
 font-size: 200%;
+}
+.button_Class:hover{
+color: white;
+background-color: blue;
 }
