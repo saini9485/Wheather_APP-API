@@ -2,49 +2,40 @@
     padding:0;
     margin: 0;
 }
-h2{
-    text-align: center;
-    color: aliceblue;
-    background-color:rgb(48, 48, 176)
-    
-}
-.cityName{
-    border-radius: 10px;
-    border: 2px solid blueviolet;
-    height: 20px;
-    width: 200px;
-    font-weight: bold;
-    font-size: 100%;
-
-}
-.submitButton{
-    border-radius: 10px;
-    border: 2px solid rgb(242, 127, 5);
-    font-weight: bold;
-    font-size: 100%;
-    
-}
-.submitButton:hover{
-    color: aliceblue;
-    background-color: blue;
-    transition: .5s;
-}
-.container{
-    margin: auto;
-    width: fit-content;
-    border: 3px solid #73AD21;
-    padding: 10px;
-    background-color: lightcoral;
-    display: none;
-
-}
-.main{
+main{
     display: flex;
-    text-align: center;
-    justify-items: center;
-    flex-direction: column;
-    width: 100%;
     height: 100vh;
-    padding-top: 20px;
+    width: 100%;
     background-color: aqua;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    background-color: blue;
+    color: antiquewhite;
+}
+.input_Class{
+ border-radius: 10%;
+ border: 2px solid red;
+    
+}
+.button_Class{
+    border-radius: 10%;
+    border: 2px solid green;
+    font-size: larger;
+    font-weight: bold;
+}
+.Input_Class{
+    border: 2px solid rgb(3, 7, 247);
+    font-size: larger;
+    font-weight: bold;
+}
+h2 ,h4{
+font-size: 200%;
+}
+.button_Class:hover{
+color: white;
+background-color: blue;
 }

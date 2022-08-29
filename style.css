@@ -2,40 +2,52 @@
     padding:0;
     margin: 0;
 }
-main{
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    background-color: aqua;
+h2{
     text-align: center;
-    justify-content: center;
-    flex-direction: column;
-}
-h1{
-    text-align: center;
-    background-color: blue;
-    color: antiquewhite;
-}
-.input_Class{
- border-radius: 10%;
- border: 2px solid red;
+    color: aliceblue;
+    background-color:rgb(48, 48, 176)
     
 }
-.button_Class{
-    border-radius: 10%;
-    border: 2px solid green;
-    font-size: larger;
+.cityName{
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    height: 20px;
+    width: 200px;
     font-weight: bold;
+    font-size: 100%;
+
 }
-.Input_Class{
-    border: 2px solid rgb(3, 7, 247);
-    font-size: larger;
+.submitButton{
+    border-radius: 10px;
+    border: 2px solid rgb(242, 127, 5);
     font-weight: bold;
+    font-size: 100%;
+    
 }
-h2 ,h4{
-font-size: 200%;
+.submitButton:hover{
+    color: aliceblue;
+    background-color: blue;
+    transition: .5s;
 }
-.button_Class:hover{
-color: white;
-background-color: blue;
+.container{
+    margin: auto;
+    width: fit-content;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    background-color: rgb(49, 108, 180);
+    border-radius: 20px;
+    display: none;
+
+}
+.main{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+    /* background-color: aqua; */
+    background-image: url("wheather\ background.jpg");
+    /* background-image: url("wheather\ image.jpg"); */
 }
